@@ -25,7 +25,7 @@ export function FormTask(){
       <br />
       <input type="text" placeholder="¿En que consiste tu tarea?"  onChange={(e) => {setDescription(e.target.value)}} className="description-input"/>
       <br />
-      <input type="submit" value="Subir tarea" className="submit"/>
+      <input type="submit" value="Subir tarea" className="submit" onChange={handleSubmit}/>
       <br />
     </form>
   )
